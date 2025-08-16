@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Log In Screen</Text>
+      <Text style={styles.title}>Log In</Text>
 
       <TextInput
         style={styles.input}
@@ -59,15 +59,16 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#1E1E2F',
+    padding: 15,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 20,
+    
   },
   title: {
-    fontSize: 26,
+    fontSize: 35,
+    fontFamily: 'Papyrus',
     color: 'white',
-    marginBottom: 30,
-    fontWeight: 'bold',
+    marginBottom: 100,
   },
   input: {
     width: '80%',
@@ -78,6 +79,7 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     borderWidth: 1,
     borderColor: '#444',
+    fontFamily: 'Papyrus',
   },
   rememberContainer: {
     flexDirection: 'row',
@@ -85,35 +87,36 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   checkbox: {
-    width: 20,
-    height: 20,
-    borderWidth: 1,
-    borderColor: '#fff',
+    width: 15,
+    height: 15,
+    borderColor: 'white',
     borderRadius: 4,
+    borderWidth: 1,
   },
   checkboxChecked: {
     backgroundColor: '#FF3366',
   },
   rememberText: {
     color: 'white',
-    marginLeft: 8,
+    marginLeft: 9,
+    fontFamily: 'Papyrus',
   },
   loginButton: {
-    width: '80%',
+    width: '50%',
     backgroundColor: '#FF3366',
-    padding: 15,
+    padding: 8,
     borderRadius: 25,
     alignItems: 'center',
   },
   loginText: {
     color: 'white',
     fontSize: 18,
-    fontWeight: 'bold',
+    fontFamily: 'Papyrus',
   },
   message: {
     marginTop: 20,
     color: 'white',
-    fontSize: 16,
+    fontSize: 15,
     textAlign: 'center',
   },
 });
