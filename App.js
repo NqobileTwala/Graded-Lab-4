@@ -87,8 +87,8 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   checkbox: {
-    width: 15,
-    height: 15,
+    width: 20,
+    height: 20,
     borderColor: 'white',
     borderRadius: 4,
     borderWidth: 1,
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   },
   rememberText: {
     color: 'white',
-    marginLeft: 9,
+    marginLeft: 8,
     fontFamily: 'Papyrus',
   },
   loginButton: {
